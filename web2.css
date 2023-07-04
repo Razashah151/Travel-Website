@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+}
+.main2{
+    display: flex;
+   width: 100%;
+   justify-content: flex-start;
+flex-wrap: wrap;
+}
+
+.main2>span{
+    padding: 0px 0px 0px 30px;
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li a{
+    display: block;
+    padding:8px 16px;
+   text-decoration: none;
+   color: coral;
+}
+.hero-section{
+    width: 100%;
+}
+
+.main3>img{
+    width: 100%;
+    height: 100%;
+}
+.stacked{
+    display: grid;
+}
+.stacked>*{
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
+.gridview{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.main3>.content{
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-size: 30px;
+}
+.btn{
+    padding: 10px 50px;
+    background-color: #f7941e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.hero-section2 figure{
+    width: 100%;
+    display: flex;
+}
+.hero-section2 figure img{
+    width: 50%;
+}
+
+.hero-section3{
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+.first>.content1{
+    display: flex;
+    justify-content: center;
+    color:#fe5925;
+    font: bold;
+    font-size: 20px;
+}
+.hero-section3>h1{
+    font-size: 50px;
+    color: #014188;
+    border: 2px solid black;
+}
+.first{
+    padding: 30px;
+}
+.first>img{
+ width: 70%;
+}
+.gridview1{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-end;
+}
+#image1{
+    background-color: #ffcaba;
+}
+#image2{
+    background-color: #014188;
+}
+#image3{
+    background-color: #ffc987;
+}
+#image4{
+    background-color: #014188;
+}
+#image5{
+    background-color: #4c4c4c;
+}
+.main4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+ 
+}
+
+.main4>h3{
+font-size: 40px;
+color: #014188;
+}
+.main4>:nth-child(2){
+font-size: 30px;
+color: #014188;
+}
+.subscribe>button{
+    color:white;
+    background-color: #f7941e;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 10px;
+}
+.subscribe>input{
+    border-color:#f7941e;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 10px;
+}
+.gridview2{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.footer{
+    background-color: #ececec;
+    padding: 20px;
+   
+}
+.smallimages>img{
+
+    width: 20%;
+}
+.column>p:nth-child(1),h3:nth-child(1){
+    color: #f7941e;
+    font-size: 20px;
+}
